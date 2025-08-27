@@ -1,0 +1,27 @@
+name: k6 Tests
+
+on:
+  workflow_dispatch:
+
+jobs:
+  k6-tests:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up k6
+        uses: grafana/setup-k6@v0
+
+      - name: Run Smoke Test
+        run: k6 run tests/smoke-test.js
+
+      - name: Run Load Test
+        run: k6 run tests/load-test.js
+
+      - name: Upload k6 HTML report
+        uses: actions/upload-artifact@v4
+        with:
+          name: k6-summary-report
+          path: summary.html

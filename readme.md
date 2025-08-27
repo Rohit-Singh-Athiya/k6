@@ -62,6 +62,8 @@ K6Project/
 
 4. **View the Report:**
    - Open `summary.html` in your browser for a visual summary.
+   - <img width="2859" height="1401" alt="image" src="https://github.com/user-attachments/assets/98b3f3cd-8752-4600-a780-fa7214bd3d9b" />
+
 
 ## Customization
 

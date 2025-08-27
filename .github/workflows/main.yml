@@ -40,4 +40,4 @@ jobs:
       uses: ./.github/workflows/deploy-report-to-page.yml
       with:
         artifact-name: k6-summary-report
-        publish-dir: summary.html
+        publish-dir: .

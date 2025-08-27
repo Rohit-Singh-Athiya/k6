@@ -41,6 +41,6 @@ export const options = {
 export function handleSummary(data) {
   return {
     "stdout": textSummary(data, { indent: " ", enableColors: true }),
-    "summary.html": htmlReport(data),
+    "index.html": htmlReport(data),
   };
 }

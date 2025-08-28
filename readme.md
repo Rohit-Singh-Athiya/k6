@@ -45,6 +45,9 @@ K6Project/
 
 - After running a test, a detailed HTML report is generated as [`summary.html`](summary.html).
 - The report includes total requests, failed requests, breached thresholds, and failed checks.
+- https://rohit-singh-athiya.github.io/k6/
+- ![Uploading image.png…]()
+
 
 ## Running the Tests
 
